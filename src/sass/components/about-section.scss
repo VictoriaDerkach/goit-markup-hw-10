@@ -1,0 +1,49 @@
+.section-about__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-about__item {
+  flex-basis: calc(100% / 4 - 30px);
+  flex-grow: 0;
+  margin-right: 40px;
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
+.section-about__title {
+  font-family: $main-font-stack;
+  color: $main-font-color;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.icon-settings,
+.icon-strongbox,
+.icon-internet,
+.icon-compass {
+  fill: $link-font-color;
+  width: 240px;
+  height: 65px;
+  margin-bottom: 60px;
+  animation-name: infiniteSpin;
+  animation-duration: 5000ms;
+  animation-timing-function: cubic-bezier(0.23, 1, 0.32, 1);
+  animation-iteration-count: infinite;
+}
+
+.section-about__paragraph {
+  font-family: $main-font-stack;
+  color: $main-font-color;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0;
+}

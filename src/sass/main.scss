@@ -2,5 +2,20 @@
  * Все паршалы импортировать в этот файл
  */
 
-@import 'normalize.scss';
-@import 'base.scss';
+@import './vars.scss';
+@import './keyframes-animations.scss';
+
+// BASE
+@import './normalize.scss';
+@import './base.scss';
+
+// COMPONENTS
+@import './components/container.scss';
+@import './components/user-navigation.scss';
+@import './components/page-navigation.scss';
+@import './components/banner-section.scss';
+@import './components/about-section.scss';
+@import './components/section-title.scss';
+@import './components/product-card.scss';
+@import './components/news-section.scss';
+@import './components/footer.scss';

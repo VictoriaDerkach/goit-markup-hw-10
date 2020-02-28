@@ -1,0 +1,16 @@
+.section-title {
+  margin: 0;
+  font-family: $heading-font-stack;
+  color: $title-font-color;
+  font-size: 48px;
+  font-weight: 900;
+  padding: 0;
+  margin-bottom: 70px;
+  text-align: center;
+
+  &::after {
+    content: url(../images/titleborder.png);
+    display: flex;
+    justify-content: center;
+  }
+}
